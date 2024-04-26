@@ -1,0 +1,60 @@
+.header {
+	position: relative;
+	display: flex;
+	padding: 0 70px;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	padding-top: 80px;
+	
+}
+
+.header__marq {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	
+}
+
+.header__marq {
+	height: 90px;
+	width: 100%;
+	height: auto;
+	background: #171717;
+	overflow: hidden;
+}
+
+.header__marq-wrapp {
+	display: flex;
+	width: 100%;
+	height: auto;
+	padding: 8px 70px;
+}
+
+.header__marq-txt {
+	position: relative;
+	flex: 0 0 auto;
+	display: inline-block;
+	padding-right: 55px;
+	margin-right: 15px;
+	text-transform: uppercase;
+	color: var(--pr-color);
+	color: #9e9e9e;
+	font-size: 35px;
+}
+
+.header__marq-star {
+	position: absolute;
+	width: 40px;
+	height: 40px;
+	right: 0;
+}
+
+.header__marq-star img {
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+span{
+    font-family: "Akshar", sans-serif;
+  }

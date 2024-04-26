@@ -1,0 +1,36 @@
+
+.work__wrapp {
+	display: flex;
+	flex-wrap: wrap;
+	row-gap: 120px;
+	justify-content: space-between;
+	padding: 0 120px;
+}
+
+.work__item {
+	position: relative;
+	width: calc(50% - 60px);
+	height: 100vh;
+}
+
+.work__item-num {
+	position: absolute;
+	display: inline-block;
+	font-size: 70px;
+	color: var(--pr-color);
+	mix-blend-mode: difference;
+	z-index: 2;
+}
+
+.work__item-img {
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+
+.work__item-img img {
+	display: block;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}

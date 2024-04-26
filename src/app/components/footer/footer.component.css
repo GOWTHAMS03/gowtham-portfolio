@@ -1,0 +1,23 @@
+.footer_container{
+    margin: 0 30px;
+}
+.social{
+    color: #b7ab98;
+    font-size: 45px;
+    text-transform: uppercase;
+    font-family: "Akshar", sans-serif;
+}
+.social:hover{
+    color: white;
+}
+
+#triangle-topright {
+    width: 0;
+    height: 0;
+    border-top: 10px solid red;
+    border-left: 10px solid transparent;
+  }
+
+  li{
+    color: #b7ab98;
+  }

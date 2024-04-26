@@ -1,0 +1,59 @@
+.main {
+  /* position: relative; */
+  overflow: hidden;
+  width: 100vw;
+  height: 100vh;
+}
+
+.main-img {
+  position: absolute;
+  width: auto;
+  height: 1000px;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 999;
+  
+}
+.circle {
+  background-color: #990d0d;
+  position: absolute;
+  top: 90px;
+  left: 710px;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  z-index: 100;
+}
+  .contant {
+  position: absolute;
+  bottom: 200px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 20px; /* Adjust spacing if necessary */
+}
+
+.contant h1, .contant .secound {
+  width: 100%;
+  background-color: #990d0d;
+  font-family: "Akshar", sans-serif;
+  font-size: 13vw;
+  font-weight: 900;
+  text-align: center;
+  word-spacing: -1.5vw;
+  text-transform: uppercase;
+  line-height: 12vw;
+  background-image: url(../../../assets/texture.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-font-smoothing: antialiased;
+}
+
+

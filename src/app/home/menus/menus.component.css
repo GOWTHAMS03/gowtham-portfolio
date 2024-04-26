@@ -1,0 +1,72 @@
+
+
+.style-17 {
+    position: relative;
+    color: #000;
+    font-family: angie-sans, sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+  }
+  .style-17:hover .link__graphic--scribble path {
+    transition: stroke-dashoffset 0.6s cubic-bezier(0.7, 0, 0.3, 1);
+  }
+  .style-17:hover .link__graphic--stroke path {
+    stroke-dashoffset: 0;
+  }
+  .style-17 .link__graphic {
+    position: absolute;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+    fill: none;
+    stroke: #000;
+    stroke-width: 1px;
+  }
+  .style-17 .link__graphic--scribble {
+    top: 100%;
+  }
+  .style-17 .link__graphic--scribble path {
+    transition: stroke-dashoffset 0.6s cubic-bezier(0.7, 0, 0.3, 1);
+  }
+  .style-17 .link__graphic--stroke path {
+    stroke-dasharray: 1;
+    stroke-dashoffset: 1;
+  }
+  
+  .style-28 {
+    color: #B7AB98;
+    font-weight: 500;
+    text-align: end;
+    position: relative;
+    z-index: 9;
+    text-transform: capitalize;
+    padding: 0;
+    overflow: hidden;
+    transition: transform 0.5s;
+    display: block;
+  }
+  .style-28::after {
+    text-align: e;
+    content: attr(data-after);
+    display: inline-block;
+    transform: translateY(100%);
+    position: absolute;
+    left: 0;
+    color: aliceblue;
+    transition: inherit;
+  }
+  .style-28 > span {
+    text-align: end;
+    display: inline-block;
+    transform: translateY(0%);
+    transition: inherit;
+  }
+  .style-28:hover > span {
+    right: 0;
+    text-align: end;
+    transform: translateY(-100%);
+  }
+  .style-28:hover::after {
+    text-align: end;
+    transform: translateY(0%);
+  }

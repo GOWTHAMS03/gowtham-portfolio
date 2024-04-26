@@ -1,0 +1,32 @@
+h3{
+  font-family: "Teko", sans-serif;
+  
+}
+span{
+  width: 70%;
+  text-wrap: wrap;
+  font-size: 80px;
+  line-height:initial;
+  font-family: "Alumni Sans", sans-serif;
+  
+  font-weight: 600;
+  font-style: normal;
+}
+
+.text > span {
+  font-family: "Alumni Sans", sans-serif;
+  
+  background: linear-gradient(
+    to right,
+    rgb(255, 255, 255) 50%,
+    rgb(37, 37, 37) 50%
+  );
+  
+
+  /* color: transparent; */
+  background-clip: text;
+  -webkit-background-clip: text;
+  margin-bottom: -250px;
+  margin-left: 50px;
+  font-size: 90px;
+}
